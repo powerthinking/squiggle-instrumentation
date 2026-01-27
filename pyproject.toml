@@ -25,6 +25,12 @@ dev = [
   "pytest>=8.0",
   "ruff>=0.6",
 ]
+hf = [
+  "transformers>=4.40",
+  "peft>=0.10",
+  "datasets>=2.19",
+  "accelerate>=0.30",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
